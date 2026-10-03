@@ -30,4 +30,4 @@ I build custom, on-brand ROI calculators and value-assessment tools for SaaS and
 
 **Reach out → [zov911.com](https://zov911.com)**
 
-© 2026 zov911. All rights reserved.
+© zov911. All rights reserved.
