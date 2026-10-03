@@ -3,7 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MealSuite ROI Calculator — Foodservice Value Assessment</title>
+<title>Foodservice Software ROI Calculator — Senior Living &amp; Healthcare</title>
+<meta name="description" content="Estimate the annual ROI of foodservice management software for senior living and healthcare: labor, food waste, dietary compliance and dining revenue. Built by zov911.">
+<meta name="author" content="zov911">
+<meta property="og:title" content="Foodservice Software ROI Calculator">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Ctext y=%2726%27 font-size=%2726%27%3E🍽️%3C/text%3E%3C/svg%3E">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 /* ════════════════════════════════════════
@@ -602,8 +607,8 @@ input[type=range]::-webkit-slider-thumb:hover { transform: scale(1.15); }
   <div class="logo-area">
     <div class="logo-mark">🍽️</div>
     <div class="logo-text">
-      <div class="brand">MealSuite</div>
-      <div class="tagline">Foodservice Management Platform</div>
+      <div class="brand">Dining ROI</div>
+      <div class="tagline">Senior Living &amp; Healthcare Foodservice</div>
     </div>
   </div>
   <div class="hdr-pill">ROI Value Calculator</div>
@@ -613,12 +618,12 @@ input[type=range]::-webkit-slider-thumb:hover { transform: scale(1.15); }
 <div class="hero">
   <div>
     <div class="hero-kicker">Operational Value Assessment</div>
-    <h1>How much could MealSuite <em>save your community</em> this year?</h1>
+    <h1>How much could foodservice software <em>save your community</em> this year?</h1>
     <p class="hero-sub">Answer 3 quick questions about your facility. We'll calculate your projected annual savings across labor, food waste, compliance, and dining revenue.</p>
     <div class="hero-stats">
-      <div class="hs"><div class="hs-val">30%</div><div class="hs-lbl">Avg. food waste reduction</div></div>
-      <div class="hs"><div class="hs-val">12 hrs</div><div class="hs-lbl">Saved per staff per week</div></div>
-      <div class="hs"><div class="hs-val">97%</div><div class="hs-lbl">Dietary accuracy rate</div></div>
+      <div class="hs"><div class="hs-val">30%</div><div class="hs-lbl">Typical food waste reduction*</div></div>
+      <div class="hs"><div class="hs-val">12 hrs</div><div class="hs-lbl">Staff hours saved / week*</div></div>
+      <div class="hs"><div class="hs-val">97%</div><div class="hs-lbl">Dietary accuracy target*</div></div>
     </div>
   </div>
   <div class="hero-visual">
@@ -819,7 +824,7 @@ input[type=range]::-webkit-slider-thumb:hover { transform: scale(1.15); }
           <div class="ch-icon">🧩</div>
           <div>
             <div class="ch-title">Select Relevant Modules</div>
-            <div class="ch-sub">Choose the MealSuite capabilities most relevant to your operation</div>
+            <div class="ch-sub">Choose the software capabilities most relevant to your operation</div>
           </div>
         </div>
         <div class="card-body">
@@ -877,7 +882,7 @@ input[type=range]::-webkit-slider-thumb:hover { transform: scale(1.15); }
       <div class="total-block">
         <div class="tb-label">Projected Annual Savings</div>
         <div class="tb-val" id="sb-total">$0</div>
-        <div class="tb-sub">Before MealSuite investment cost</div>
+        <div class="tb-sub">Before software investment cost</div>
       </div>
 
       <div class="roi-row">
@@ -910,8 +915,8 @@ input[type=range]::-webkit-slider-thumb:hover { transform: scale(1.15); }
 
   <div class="results-hero au">
     <div class="rh-eyebrow">Your ROI Assessment is Ready</div>
-    <div class="rh-title" id="rh-headline">Your facility could save significantly<br>by switching to MealSuite</div>
-    <div class="rh-sub" id="rh-sub">Based on your inputs below is your projected annual value from MealSuite</div>
+    <div class="rh-title" id="rh-headline">Your facility could save significantly<br>with modern foodservice software</div>
+    <div class="rh-sub" id="rh-sub">Based on your inputs below is your projected annual value from foodservice software</div>
     <div class="rht-total">
       <div class="rht-label">Projected Annual Savings</div>
       <div class="rht-val" id="r4-total">$0</div>
@@ -957,7 +962,7 @@ input[type=range]::-webkit-slider-thumb:hover { transform: scale(1.15); }
       <div class="mc-icon-lg">🔄</div>
       <div class="mc-title">Estimated ROI</div>
       <div class="mc-big" id="r4-roi">0%</div>
-      <div class="mc-desc">First-year return on MealSuite investment</div>
+      <div class="mc-desc">First-year return on software investment</div>
     </div>
     <div class="metric-card m2">
       <div class="mc-icon-lg">📅</div>
@@ -975,18 +980,20 @@ input[type=range]::-webkit-slider-thumb:hover { transform: scale(1.15); }
 
   <div class="cta-section au au-d4">
     <div class="cta-text">
-      <h3>Ready to see MealSuite in action?</h3>
-      <p>Schedule a personalized demo to see exactly how MealSuite can deliver these results<br>for your specific facility, care levels, and operational challenges.</p>
+      <h3>Want an ROI calculator like this for your business?</h3>
+      <p>I build custom ROI calculators and value-assessment tools for SaaS and B2B vendors.<br>They turn website visitors into qualified, pre-educated sales conversations.</p>
     </div>
     <div style="display:flex;gap:10px;flex-wrap:wrap;">
       <button class="btn-reset" onclick="resetCalc()">↺ Recalculate</button>
-      <button class="btn-cta">Book a Free Demo →</button>
+      <a class="btn-cta" href="https://zov911.com" target="_blank" rel="noopener" style="text-decoration:none;display:inline-block">Reach out → zov911.com</a>
     </div>
   </div>
 
 </div><!-- /results-step -->
 
+<footer style="margin:48px 0 24px;padding-top:18px;border-top:1px solid rgba(0,0,0,.12);font-size:13px;opacity:.75;line-height:1.7">© <span id="yr">2026</span> zov911 · Designed &amp; built by <a href="https://zov911.com" target="_blank" rel="noopener">zov911</a> · <a href="https://github.com/zov911" target="_blank" rel="noopener">GitHub</a><br>Benchmarks are typical industry and vendor-reported ranges for senior living and healthcare foodservice. Results are estimates; your outcomes will vary by facility.</footer>
 </div><!-- /wrap -->
+<script>document.getElementById("yr").textContent=new Date().getFullYear();</script>
 
 <script>
 /* ═══════════════════════════════════════
@@ -1099,14 +1106,14 @@ function calculate() {
   const modMult = Math.min(totalSaving, 1.0);
 
   // LABOR SAVINGS
-  // Menu planning: MealSuite reduces to ~1hr/wk from current
+  // Menu planning: software reduces to ~1hr/wk from current
   const menuSaved  = Math.max(0, i.menuHours - 1);
   const prodSaved  = Math.max(0, i.prodHours - 0.5);
   const totalHrsSavedWk = (menuSaved + prodSaved) * i.locations;
   const laborSavings = totalHrsSavedWk * 52 * i.wage;
 
   // WASTE REDUCTION
-  // MealSuite reduces waste by 30-40%; use 35% as midpoint
+  // Software typically reduces waste by 30-40%; use 35% as midpoint
   const wasteReduction = 0.35;
   const currentWaste$ = i.foodBudget * (i.waste / 100);
   const wasteSavings = currentWaste$ * wasteReduction;
@@ -1132,7 +1139,7 @@ function calculate() {
 
   const total = labor + waste + errors + revenue + softwareReplaced;
 
-  // Estimate MealSuite cost (rough: $3-8/resident/month depending on modules)
+  // Estimate software cost (rough: $3-8/resident/month depending on modules)
   const modulesCount = checkedModules.size;
   const msCostPerResMonth = 3.5 + (modulesCount * 0.4);
   const msCostAnnual = msCostPerResMonth * i.residents * 12 * i.locations;
